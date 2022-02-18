@@ -5,12 +5,12 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class ErrorController extends Controller
 {
     public function index(){
         $data = [
-            'title' => 'Home'
+            'title' => '404'
         ];
-        return view('frontend.pages.home.home',$data);
+        return view('frontend.pages.404.404',$data);
     }
 }
