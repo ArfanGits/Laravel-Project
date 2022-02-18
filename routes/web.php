@@ -29,3 +29,4 @@ Route::get('category','Frontend\CategoryController@index')->name('category');
 Route::get('checkout','Frontend\CheckoutController@index')->name('checkout');
 Route::get('contact','Frontend\ContactController@index')->name('contact');
 Route::get('product-details','Frontend\ProductdetailsController@index')->name('product.details');
+Route::get('faq','Frontend\FAQController@index')->name('faq');
