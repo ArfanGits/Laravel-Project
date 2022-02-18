@@ -26,3 +26,4 @@ Route::get('404','Frontend\ErrorController@index')->name('404');
 Route::get('blog','Frontend\BlogController@index')->name('blog');
 Route::get('blog-details','Frontend\BlogDetailController@index')->name('blog-details');
 Route::get('category','Frontend\CategoryController@index')->name('category');
+Route::get('checkout','Frontend\CheckoutController@index')->name('checkout');
