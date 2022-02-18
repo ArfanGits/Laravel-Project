@@ -23,3 +23,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/','Frontend\HomeController@index')->name('home');
 Route::get('404','Frontend\ErrorController@index')->name('404');
+Route::get('blog','Frontend\BlogController@index')->name('blog');
