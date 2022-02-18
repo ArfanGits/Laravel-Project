@@ -34,3 +34,4 @@ Route::get('my-wishlist','Frontend\MyWishlistController@index')->name('my-wishli
 Route::get('product-comparison','Frontend\ProductComparisonController@index')->name('product-comparison');
 Route::get('shopping-cart','Frontend\ShoppingCartController@index')->name('shopping-cart');
 Route::get('sign-in','Frontend\SignInController@index')->name('sign-in');
+Route::get('terms','Frontend\TermsController@index')->name('terms');
