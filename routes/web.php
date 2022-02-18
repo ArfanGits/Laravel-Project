@@ -28,3 +28,4 @@ Route::get('blog-details','Frontend\BlogDetailController@index')->name('blog-det
 Route::get('category','Frontend\CategoryController@index')->name('category');
 Route::get('checkout','Frontend\CheckoutController@index')->name('checkout');
 Route::get('contact','Frontend\ContactController@index')->name('contact');
+Route::get('product-details','Frontend\ProductdetailsController@index')->name('product.details');
