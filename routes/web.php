@@ -33,3 +33,4 @@ Route::get('faq','Frontend\FAQController@index')->name('faq');
 Route::get('my-wishlist','Frontend\MyWishlistController@index')->name('my-wishlist');
 Route::get('product-comparison','Frontend\ProductComparisonController@index')->name('product-comparison');
 Route::get('shopping-cart','Frontend\ShoppingCartController@index')->name('shopping-cart');
+Route::get('sign-in','Frontend\SignInController@index')->name('sign-in');
