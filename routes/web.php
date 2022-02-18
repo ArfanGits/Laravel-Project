@@ -35,3 +35,4 @@ Route::get('product-comparison','Frontend\ProductComparisonController@index')->n
 Route::get('shopping-cart','Frontend\ShoppingCartController@index')->name('shopping-cart');
 Route::get('sign-in','Frontend\SignInController@index')->name('sign-in');
 Route::get('terms','Frontend\TermsController@index')->name('terms');
+Route::get('track-orders','Frontend\TrackOrdersController@index')->name('track-orders');
