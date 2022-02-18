@@ -31,3 +31,4 @@ Route::get('contact','Frontend\ContactController@index')->name('contact');
 Route::get('product-details','Frontend\ProductdetailsController@index')->name('product.details');
 Route::get('faq','Frontend\FAQController@index')->name('faq');
 Route::get('my-wishlist','Frontend\MyWishlistController@index')->name('my-wishlist');
+Route::get('product-comparison','Frontend\ProductComparisonController@index')->name('product-comparison');
