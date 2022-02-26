@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
 <head>
     <base href="{{ asset('/') }}">
     <!-- Meta -->
@@ -26,8 +25,6 @@
     @include('frontend.include.header')
     @yield('content')
     @include('frontend.include.footer')
-
-
     @include('frontend.include.scripts')
 </body>
 
