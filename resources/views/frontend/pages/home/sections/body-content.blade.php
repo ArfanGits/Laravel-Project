@@ -9,60 +9,60 @@
                     <div class="head"><i class="icon fa fa-align-justify fa-fw"></i> Categories</div>
                     <nav class="yamm megamenu-horizontal">
                         <ul class="nav">
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle" data-toggle="dropdown"><i
                                         class="icon fa fa-shopping-bag" aria-hidden="true"></i>Clothing</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shoes </a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Sunglasses</a></li>
-                                                    <li><a href="#">Sport Wear</a></li>
-                                                    <li><a href="#">Blazers</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="{{ route('category') }}">Dresses</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes </a></li>
+                                                    <li><a href="{{ route('category') }}">Jackets</a></li>
+                                                    <li><a href="{{ route('category') }}">Sunglasses</a></li>
+                                                    <li><a href="{{ route('category') }}">Sport Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Blazers</a></li>
+                                                    <li><a href="{{ route('category') }}">Shirts</a></li>
+                                                    <li><a href="{{ route('category') }}">Shorts</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Handbags</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Swimwear </a></li>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Flats</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">Winter Wear</a></li>
-                                                    <li><a href="#">Night Suits</a></li>
+                                                    <li><a href="{{ route('category') }}">Handbags</a></li>
+                                                    <li><a href="{{ route('category') }}">Jwellery</a></li>
+                                                    <li><a href="{{ route('category') }}">Swimwear </a></li>
+                                                    <li><a href="{{ route('category') }}">Tops</a></li>
+                                                    <li><a href="{{ route('category') }}">Flats</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes</a></li>
+                                                    <li><a href="{{ route('category') }}">Winter Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Night Suits</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Toys &amp; Games</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">School Bags</a></li>
-                                                    <li><a href="#">Lunch Box</a></li>
-                                                    <li><a href="#">Footwear</a></li>
-                                                    <li><a href="#">Wipes</a></li>
+                                                    <li><a href="{{ route('category') }}">Toys &amp; Games</a></li>
+                                                    <li><a href="{{ route('category') }}">Jeans</a></li>
+                                                    <li><a href="{{ route('category') }}">Shirts</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes</a></li>
+                                                    <li><a href="{{ route('category') }}">School Bags</a></li>
+                                                    <li><a href="{{ route('category') }}">Lunch Box</a></li>
+                                                    <li><a href="{{ route('category') }}">Footwear</a></li>
+                                                    <li><a href="{{ route('category') }}">Wipes</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Sandals </a></li>
-                                                    <li><a href="#">Shorts</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Bags</a></li>
-                                                    <li><a href="#">Night Dress</a></li>
-                                                    <li><a href="#">Swim Wear</a></li>
-                                                    <li><a href="#">Toys</a></li>
+                                                    <li><a href="{{ route('category') }}">Sandals </a></li>
+                                                    <li><a href="{{ route('category') }}">Shorts</a></li>
+                                                    <li><a href="{{ route('category') }}">Dresses</a></li>
+                                                    <li><a href="{{ route('category') }}">Jwellery</a></li>
+                                                    <li><a href="{{ route('category') }}">Bags</a></li>
+                                                    <li><a href="{{ route('category') }}">Night Dress</a></li>
+                                                    <li><a href="{{ route('category') }}">Swim Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Toys</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
@@ -75,7 +75,7 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-laptop"
                                         aria-hidden="true"></i>Electronics</a>
                                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
@@ -84,30 +84,30 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Gaming</a></li>
-                                                    <li><a href="#">Laptop Skins</a></li>
-                                                    <li><a href="#">Apple</a></li>
-                                                    <li><a href="#">Dell</a></li>
-                                                    <li><a href="#">Lenovo</a></li>
-                                                    <li><a href="#">Microsoft</a></li>
-                                                    <li><a href="#">Asus</a></li>
-                                                    <li><a href="#">Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Cooling Pads</a></li>
+                                                    <li><a href="{{ route('category') }}">Gaming</a></li>
+                                                    <li><a href="{{ route('category') }}">Laptop Skins</a></li>
+                                                    <li><a href="{{ route('category') }}">Apple</a></li>
+                                                    <li><a href="{{ route('category') }}">Dell</a></li>
+                                                    <li><a href="{{ route('category') }}">Lenovo</a></li>
+                                                    <li><a href="{{ route('category') }}">Microsoft</a></li>
+                                                    <li><a href="{{ route('category') }}">Asus</a></li>
+                                                    <li><a href="{{ route('category') }}">Adapters</a></li>
+                                                    <li><a href="{{ route('category') }}">Batteries</a></li>
+                                                    <li><a href="{{ route('category') }}">Cooling Pads</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Routers &amp; Modems</a></li>
-                                                    <li><a href="#">CPUs, Processors</a></li>
-                                                    <li><a href="#">PC Gaming Store</a></li>
-                                                    <li><a href="#">Graphics Cards</a></li>
-                                                    <li><a href="#">Components</a></li>
-                                                    <li><a href="#">Webcam</a></li>
-                                                    <li><a href="#">Memory (RAM)</a></li>
-                                                    <li><a href="#">Motherboards</a></li>
-                                                    <li><a href="#">Keyboards</a></li>
-                                                    <li><a href="#">Headphones</a></li>
+                                                    <li><a href="{{ route('category') }}">Routers &amp; Modems</a></li>
+                                                    <li><a href="{{ route('category') }}">CPUs, Processors</a></li>
+                                                    <li><a href="{{ route('category') }}">PC Gaming Store</a></li>
+                                                    <li><a href="{{ route('category') }}">Graphics Cards</a></li>
+                                                    <li><a href="{{ route('category') }}">Components</a></li>
+                                                    <li><a href="{{ route('category') }}">Webcam</a></li>
+                                                    <li><a href="{{ route('category') }}">Memory (RAM)</a></li>
+                                                    <li><a href="{{ route('category') }}">Motherboards</a></li>
+                                                    <li><a href="{{ route('category') }}">Keyboards</a></li>
+                                                    <li><a href="{{ route('category') }}">Headphones</a></li>
                                                 </ul>
                                             </div>
                                             <div class="dropdown-banner-holder"> <a href="#"><img alt=""
@@ -122,60 +122,60 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-paw" aria-hidden="true"></i>Shoes</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shoes </a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Sunglasses</a></li>
-                                                    <li><a href="#">Sport Wear</a></li>
-                                                    <li><a href="#">Blazers</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="{{ route('category') }}">Dresses</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes </a></li>
+                                                    <li><a href="{{ route('category') }}">Jackets</a></li>
+                                                    <li><a href="{{ route('category') }}">Sunglasses</a></li>
+                                                    <li><a href="{{ route('category') }}">Sport Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Blazers</a></li>
+                                                    <li><a href="{{ route('category') }}">Shirts</a></li>
+                                                    <li><a href="{{ route('category') }}">Shorts</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Handbags</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Swimwear </a></li>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Flats</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">Winter Wear</a></li>
-                                                    <li><a href="#">Night Suits</a></li>
+                                                    <li><a href="{{ route('category') }}">Handbags</a></li>
+                                                    <li><a href="{{ route('category') }}">Jwellery</a></li>
+                                                    <li><a href="{{ route('category') }}">Swimwear </a></li>
+                                                    <li><a href="{{ route('category') }}">Tops</a></li>
+                                                    <li><a href="{{ route('category') }}">Flats</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes</a></li>
+                                                    <li><a href="{{ route('category') }}">Winter Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Night Suits</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Toys &amp; Games</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">School Bags</a></li>
-                                                    <li><a href="#">Lunch Box</a></li>
-                                                    <li><a href="#">Footwear</a></li>
-                                                    <li><a href="#">Wipes</a></li>
+                                                    <li><a href="{{ route('category') }}">Toys &amp; Games</a></li>
+                                                    <li><a href="{{ route('category') }}">Jeans</a></li>
+                                                    <li><a href="{{ route('category') }}">Shirts</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes</a></li>
+                                                    <li><a href="{{ route('category') }}">School Bags</a></li>
+                                                    <li><a href="{{ route('category') }}">Lunch Box</a></li>
+                                                    <li><a href="{{ route('category') }}">Footwear</a></li>
+                                                    <li><a href="{{ route('category') }}">Wipes</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Sandals </a></li>
-                                                    <li><a href="#">Shorts</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Bags</a></li>
-                                                    <li><a href="#">Night Dress</a></li>
-                                                    <li><a href="#">Swim Wear</a></li>
-                                                    <li><a href="#">Toys</a></li>
+                                                    <li><a href="{{ route('category') }}">Sandals </a></li>
+                                                    <li><a href="{{ route('category') }}">Shorts</a></li>
+                                                    <li><a href="{{ route('category') }}">Dresses</a></li>
+                                                    <li><a href="{{ route('category') }}">Jwellery</a></li>
+                                                    <li><a href="{{ route('category') }}">Bags</a></li>
+                                                    <li><a href="{{ route('category') }}">Night Dress</a></li>
+                                                    <li><a href="{{ route('category') }}">Swim Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Toys</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
@@ -188,37 +188,37 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-clock-o"></i>Watches</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Gaming</a></li>
-                                                    <li><a href="#">Laptop Skins</a></li>
-                                                    <li><a href="#">Apple</a></li>
-                                                    <li><a href="#">Dell</a></li>
-                                                    <li><a href="#">Lenovo</a></li>
-                                                    <li><a href="#">Microsoft</a></li>
-                                                    <li><a href="#">Asus</a></li>
-                                                    <li><a href="#">Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Cooling Pads</a></li>
+                                                    <li><a href="{{ route('category') }}">Gaming</a></li>
+                                                    <li><a href="{{ route('category') }}">Laptop Skins</a></li>
+                                                    <li><a href="{{ route('category') }}">Apple</a></li>
+                                                    <li><a href="{{ route('category') }}">Dell</a></li>
+                                                    <li><a href="{{ route('category') }}">Lenovo</a></li>
+                                                    <li><a href="{{ route('category') }}">Microsoft</a></li>
+                                                    <li><a href="{{ route('category') }}">Asus</a></li>
+                                                    <li><a href="{{ route('category') }}">Adapters</a></li>
+                                                    <li><a href="{{ route('category') }}">Batteries</a></li>
+                                                    <li><a href="{{ route('category') }}">Cooling Pads</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Routers &amp; Modems</a></li>
-                                                    <li><a href="#">CPUs, Processors</a></li>
-                                                    <li><a href="#">PC Gaming Store</a></li>
-                                                    <li><a href="#">Graphics Cards</a></li>
-                                                    <li><a href="#">Components</a></li>
-                                                    <li><a href="#">Webcam</a></li>
-                                                    <li><a href="#">Memory (RAM)</a></li>
-                                                    <li><a href="#">Motherboards</a></li>
-                                                    <li><a href="#">Keyboards</a></li>
-                                                    <li><a href="#">Headphones</a></li>
+                                                    <li><a href="{{ route('category') }}">Routers &amp; Modems</a></li>
+                                                    <li><a href="{{ route('category') }}">CPUs, Processors</a></li>
+                                                    <li><a href="{{ route('category') }}">PC Gaming Store</a></li>
+                                                    <li><a href="{{ route('category') }}">Graphics Cards</a></li>
+                                                    <li><a href="{{ route('category') }}">Components</a></li>
+                                                    <li><a href="{{ route('category') }}">Webcam</a></li>
+                                                    <li><a href="{{ route('category') }}">Memory (RAM)</a></li>
+                                                    <li><a href="{{ route('category') }}">Motherboards</a></li>
+                                                    <li><a href="{{ route('category') }}">Keyboards</a></li>
+                                                    <li><a href="{{ route('category') }}">Headphones</a></li>
                                                 </ul>
                                             </div>
                                             <div class="dropdown-banner-holder"> <a href="#"><img alt=""
@@ -232,60 +232,60 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-diamond"></i>Jewellery</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shoes </a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Sunglasses</a></li>
-                                                    <li><a href="#">Sport Wear</a></li>
-                                                    <li><a href="#">Blazers</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="{{ route('category') }}">Dresses</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes </a></li>
+                                                    <li><a href="{{ route('category') }}">Jackets</a></li>
+                                                    <li><a href="{{ route('category') }}">Sunglasses</a></li>
+                                                    <li><a href="{{ route('category') }}">Sport Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Blazers</a></li>
+                                                    <li><a href="{{ route('category') }}">Shirts</a></li>
+                                                    <li><a href="{{ route('category') }}">Shorts</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Handbags</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Swimwear </a></li>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Flats</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">Winter Wear</a></li>
-                                                    <li><a href="#">Night Suits</a></li>
+                                                    <li><a href="{{ route('category') }}">Handbags</a></li>
+                                                    <li><a href="{{ route('category') }}">Jwellery</a></li>
+                                                    <li><a href="{{ route('category') }}">Swimwear </a></li>
+                                                    <li><a href="{{ route('category') }}">Tops</a></li>
+                                                    <li><a href="{{ route('category') }}">Flats</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes</a></li>
+                                                    <li><a href="{{ route('category') }}">Winter Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Night Suits</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Toys &amp; Games</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">School Bags</a></li>
-                                                    <li><a href="#">Lunch Box</a></li>
-                                                    <li><a href="#">Footwear</a></li>
-                                                    <li><a href="#">Wipes</a></li>
+                                                    <li><a href="{{ route('category') }}">Toys &amp; Games</a></li>
+                                                    <li><a href="{{ route('category') }}">Jeans</a></li>
+                                                    <li><a href="{{ route('category') }}">Shirts</a></li>
+                                                    <li><a href="{{ route('category') }}">Shoes</a></li>
+                                                    <li><a href="{{ route('category') }}">School Bags</a></li>
+                                                    <li><a href="{{ route('category') }}">Lunch Box</a></li>
+                                                    <li><a href="{{ route('category') }}">Footwear</a></li>
+                                                    <li><a href="{{ route('category') }}">Wipes</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Sandals </a></li>
-                                                    <li><a href="#">Shorts</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Bags</a></li>
-                                                    <li><a href="#">Night Dress</a></li>
-                                                    <li><a href="#">Swim Wear</a></li>
-                                                    <li><a href="#">Toys</a></li>
+                                                    <li><a href="{{ route('category') }}">Sandals </a></li>
+                                                    <li><a href="{{ route('category') }}">Shorts</a></li>
+                                                    <li><a href="{{ route('category') }}">Dresses</a></li>
+                                                    <li><a href="{{ route('category') }}">Jwellery</a></li>
+                                                    <li><a href="{{ route('category') }}">Bags</a></li>
+                                                    <li><a href="{{ route('category') }}">Night Dress</a></li>
+                                                    <li><a href="{{ route('category') }}">Swim Wear</a></li>
+                                                    <li><a href="{{ route('category') }}">Toys</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
@@ -298,7 +298,7 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-heartbeat"></i>Health and
                                     Beauty</a>
                                 <ul class="dropdown-menu mega-menu">
@@ -306,30 +306,30 @@
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Gaming</a></li>
-                                                    <li><a href="#">Laptop Skins</a></li>
-                                                    <li><a href="#">Apple</a></li>
-                                                    <li><a href="#">Dell</a></li>
-                                                    <li><a href="#">Lenovo</a></li>
-                                                    <li><a href="#">Microsoft</a></li>
-                                                    <li><a href="#">Asus</a></li>
-                                                    <li><a href="#">Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Cooling Pads</a></li>
+                                                    <li><a href="{{ route('category') }}">Gaming</a></li>
+                                                    <li><a href="{{ route('category') }}">Laptop Skins</a></li>
+                                                    <li><a href="{{ route('category') }}">Apple</a></li>
+                                                    <li><a href="{{ route('category') }}">Dell</a></li>
+                                                    <li><a href="{{ route('category') }}">Lenovo</a></li>
+                                                    <li><a href="{{ route('category') }}">Microsoft</a></li>
+                                                    <li><a href="{{ route('category') }}">Asus</a></li>
+                                                    <li><a href="{{ route('category') }}">Adapters</a></li>
+                                                    <li><a href="{{ route('category') }}">Batteries</a></li>
+                                                    <li><a href="{{ route('category') }}">Cooling Pads</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Routers &amp; Modems</a></li>
-                                                    <li><a href="#">CPUs, Processors</a></li>
-                                                    <li><a href="#">PC Gaming Store</a></li>
-                                                    <li><a href="#">Graphics Cards</a></li>
-                                                    <li><a href="#">Components</a></li>
-                                                    <li><a href="#">Webcam</a></li>
-                                                    <li><a href="#">Memory (RAM)</a></li>
-                                                    <li><a href="#">Motherboards</a></li>
-                                                    <li><a href="#">Keyboards</a></li>
-                                                    <li><a href="#">Headphones</a></li>
+                                                    <li><a href="{{ route('category') }}">Routers &amp; Modems</a></li>
+                                                    <li><a href="{{ route('category') }}">CPUs, Processors</a></li>
+                                                    <li><a href="{{ route('category') }}">PC Gaming Store</a></li>
+                                                    <li><a href="{{ route('category') }}">Graphics Cards</a></li>
+                                                    <li><a href="{{ route('category') }}">Components</a></li>
+                                                    <li><a href="{{ route('category') }}">Webcam</a></li>
+                                                    <li><a href="{{ route('category') }}">Memory (RAM)</a></li>
+                                                    <li><a href="{{ route('category') }}">Motherboards</a></li>
+                                                    <li><a href="{{ route('category') }}">Keyboards</a></li>
+                                                    <li><a href="{{ route('category') }}">Headphones</a></li>
                                                 </ul>
                                             </div>
                                             <div class="dropdown-banner-holder"> <a href="#"><img alt=""
@@ -343,14 +343,14 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-paper-plane"></i>Kids and
                                     Babies</a>
                                 <!-- /.dropdown-menu -->
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-futbol-o"></i>Sports</a>
                                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
                                 <!-- /.dropdown-menu -->
@@ -358,7 +358,7 @@
                             </li>
                             <!-- /.menu-item -->
 
-                            <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle"
+                            <li class="dropdown menu-item"> <a href="{{ route('category') }}" class="dropdown-toggle"
                                     data-toggle="dropdown"><i class="icon fa fa-envira"></i>Home and Garden</a>
                                 <!-- /.dropdown-menu -->
                             </li>
@@ -380,7 +380,7 @@
                             <div class="products">
                                 <div class="hot-deal-wrapper">
                                     <div class="image">
-                                        <a href="#">
+                                        <a href="{{ route('product-details') }}">
                                             <img src="asset/frontend/assets/images/hot-deals/p13.jpg" alt="">
                                             <img src="asset/frontend/assets/images/hot-deals/p13_hover.jpg" alt=""
                                                 class="hover-image">
@@ -414,7 +414,7 @@
                                 <!-- /.hot-deal-wrapper -->
 
                                 <div class="product-info text-left m-t-20">
-                                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a></h3>
                                     <div class="rating rateit-small"></div>
                                     <div class="product-price"> <span class="price"> $600.00 </span>
                                         <span class="price-before-discount">$800.00</span>
@@ -442,7 +442,7 @@
                             <div class="products">
                                 <div class="hot-deal-wrapper">
                                     <div class="image">
-                                        <a href="#">
+                                        <a href="{{ route('product-details') }}">
                                             <img src="asset/frontend/assets/images/hot-deals/p14.jpg" alt="">
                                             <img src="asset/frontend/assets/images/hot-deals/p14_hover.jpg" alt=""
                                                 class="hover-image">
@@ -476,7 +476,7 @@
                                 <!-- /.hot-deal-wrapper -->
 
                                 <div class="product-info text-left m-t-20">
-                                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a></h3>
                                     <div class="rating rateit-small"></div>
                                     <div class="product-price"> <span class="price"> $600.00 </span>
                                         <span class="price-before-discount">$800.00</span>
@@ -504,7 +504,7 @@
                             <div class="products">
                                 <div class="hot-deal-wrapper">
                                     <div class="image">
-                                        <a href="#">
+                                        <a href="{{ route('product-details') }}">
                                             <img src="asset/frontend/assets/images/hot-deals/p15.jpg" alt="">
                                             <img src="asset/frontend/assets/images/hot-deals/p15_hover.jpg" alt=""
                                                 class="hover-image">
@@ -538,7 +538,7 @@
                                 <!-- /.hot-deal-wrapper -->
 
                                 <div class="product-info text-left m-t-20">
-                                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a></h3>
                                     <div class="rating rateit-small"></div>
                                     <div class="product-price"> <span class="price"> $600.00 </span>
                                         <span class="price-before-discount">$800.00</span>
@@ -581,7 +581,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p5.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -592,7 +592,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -613,7 +613,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p9.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -624,7 +624,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -645,7 +645,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p11.jpg" alt="">
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -656,7 +656,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -681,7 +681,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p15.jpg" alt="">
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -692,7 +692,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -713,7 +713,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p13.jpg" alt="">
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -724,7 +724,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -745,7 +745,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p12.jpg" alt="">
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -756,7 +756,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -781,7 +781,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p1.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -792,7 +792,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -813,7 +813,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p3.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -824,7 +824,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -844,7 +844,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p7.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -855,7 +855,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -913,7 +913,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p8.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -924,7 +924,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -945,7 +945,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p5.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -956,7 +956,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -977,7 +977,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p6.jpg" alt="image">
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -988,7 +988,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1013,7 +1013,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p8.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -1024,7 +1024,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1045,7 +1045,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p7.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -1056,7 +1056,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1077,7 +1077,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p6.jpg" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -1088,7 +1088,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1112,7 +1112,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p5.jpg" alt="images">
                                                                 <div class="zoom-overlay"></div>
                                                             </a> </div>
@@ -1124,7 +1124,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1145,7 +1145,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p4.jpg" alt="">
                                                                 <div class="zoom-overlay"></div>
                                                             </a> </div>
@@ -1157,7 +1157,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1178,7 +1178,7 @@
                                             <div class="row product-micro-row">
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
+                                                        <div class="image"> <a href="{{ route('product-details') }}"> <img
                                                                     src="asset/frontend/assets/images/products/p13.jpg" alt="image">
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -1189,7 +1189,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1354,7 +1354,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p1.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p1_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1367,7 +1367,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1390,11 +1390,11 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a data-toggle="tooltip"
-                                                                    class="add-to-cart" href="detail.html"
+                                                                    class="add-to-cart" href="{{ route('product-details') }}"
                                                                     title="Wishlist"> <i class="icon fa fa-heart"></i>
                                                                 </a> </li>
                                                             <li class="lnk"> <a data-toggle="tooltip"
-                                                                    class="add-to-cart" href="detail.html"
+                                                                    class="add-to-cart" href="{{ route('product-details') }}"
                                                                     title="Compare"> <i class="fa fa-signal"
                                                                         aria-hidden="true"></i> </a> </li>
                                                         </ul>
@@ -1415,7 +1415,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p4.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p4_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1428,7 +1428,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1450,10 +1450,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1474,7 +1474,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p3.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p3_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1487,7 +1487,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1509,10 +1509,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1533,7 +1533,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p2.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p2_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1546,7 +1546,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1568,10 +1568,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1592,7 +1592,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p6.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p6_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1605,7 +1605,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1627,10 +1627,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1651,7 +1651,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p5.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p5_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1664,7 +1664,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1686,10 +1686,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1719,7 +1719,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p7.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p7_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1733,7 +1733,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1755,10 +1755,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1779,7 +1779,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p8.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p8_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1793,7 +1793,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1815,10 +1815,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1839,7 +1839,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p9.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p9_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1853,7 +1853,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1875,10 +1875,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1899,7 +1899,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p10.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p10_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1913,7 +1913,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1935,10 +1935,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -1959,7 +1959,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p11.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p11_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -1973,7 +1973,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -1995,10 +1995,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2019,7 +2019,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p12.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p12_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2033,7 +2033,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2055,10 +2055,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2088,7 +2088,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p15.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p15_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2102,7 +2102,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2124,10 +2124,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2148,7 +2148,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p2.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p2_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2162,7 +2162,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2184,10 +2184,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2208,7 +2208,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p8.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p8_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2222,7 +2222,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2244,10 +2244,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2267,7 +2267,7 @@
                                         <div class="products">
                                             <div class="product">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p14.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p14_hover.jpg" alt=""
                                                             class="hover-image">
@@ -2277,7 +2277,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2299,10 +2299,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2323,7 +2323,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p12.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p12_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2337,7 +2337,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2359,10 +2359,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2383,7 +2383,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p9.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p9_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2397,7 +2397,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Apple Iphone
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Apple Iphone
                                                             5s 32GB</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2419,10 +2419,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2452,7 +2452,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p13.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p13_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2466,7 +2466,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2488,10 +2488,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2512,7 +2512,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p11.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p11_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2526,7 +2526,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2548,10 +2548,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2572,7 +2572,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p4.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p4_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2586,7 +2586,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2608,10 +2608,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2632,7 +2632,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p1.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p1_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2646,7 +2646,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2668,10 +2668,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2692,7 +2692,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p10.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p10_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2706,7 +2706,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Floral Print
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                             Buttoned</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2728,10 +2728,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2752,7 +2752,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image">
-                                                        <a href="detail.html">
+                                                        <a href="{{ route('product-details') }}">
                                                             <img src="asset/frontend/assets/images/products/p6.jpg" alt="">
                                                             <img src="asset/frontend/assets/images/products/p6_hover.jpg" alt=""
                                                                 class="hover-image">
@@ -2766,7 +2766,7 @@
                                                 <!-- /.product-image -->
 
                                                 <div class="product-info text-left">
-                                                    <h3 class="name"><a href="detail.html">Samsung
+                                                    <h3 class="name"><a href="{{ route('product-details') }}">Samsung
                                                             Galaxy S4</a></h3>
                                                     <div class="rating rateit-small"></div>
                                                     <div class="description"></div>
@@ -2788,10 +2788,10 @@
                                                                     type="button">Add to cart</button>
                                                             </li>
                                                             <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Wishlist"> <i
+                                                                    href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                         class="icon fa fa-heart"></i> </a> </li>
                                                             <li class="lnk"> <a class="add-to-cart"
-                                                                    href="detail.html" title="Compare"> <i
+                                                                    href="{{ route('product-details') }}" title="Compare"> <i
                                                                         class="fa fa-signal" aria-hidden="true"></i>
                                                                 </a> </li>
                                                         </ul>
@@ -2858,16 +2858,16 @@
                         <div class="col-lg-3">
                             <h3 class="section-title">Electronics & Digital</h3>
                             <ul class="sub-cat">
-                                <li><a href="#">Computers</a></li>
-                                <li><a href="#">Air Condtion</a></li>
-                                <li><a href="#">Mobile Phones</a></li>
-                                <li><a href="#">Camera</a></li>
-                                <li><a href="#">Television</a></li>
-                                <li><a href="#">Sound & Speakers</a></li>
-                                <li><a href="#">Games & Audio Music</a></li>
-                                <li><a href="#">Digital Watches</a></li>
-                                <li><a href="#">Washing Machines</a></li>
-                                <li><a href="#">Office Electronics</a></li>
+                                <li><a href="{{ route('category') }}">Computers</a></li>
+                                <li><a href="{{ route('category') }}">Air Condtion</a></li>
+                                <li><a href="{{ route('category') }}">Mobile Phones</a></li>
+                                <li><a href="{{ route('category') }}">Camera</a></li>
+                                <li><a href="{{ route('category') }}">Television</a></li>
+                                <li><a href="{{ route('category') }}">Sound & Speakers</a></li>
+                                <li><a href="{{ route('category') }}">Games & Audio Music</a></li>
+                                <li><a href="{{ route('category') }}">Digital Watches</a></li>
+                                <li><a href="{{ route('category') }}">Washing Machines</a></li>
+                                <li><a href="{{ route('category') }}">Office Electronics</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-9">
@@ -2877,7 +2877,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p13.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p13_hover.jpg" alt=""
                                                             class="hover-image">
@@ -2891,7 +2891,7 @@
                                             <!-- /.product-image -->
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -2913,10 +2913,10 @@
                                                                 to cart</button>
                                                         </li>
                                                         <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                href="detail.html" title="Wishlist"> <i
+                                                                href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                     class="icon fa fa-heart"></i> </a> </li>
                                                         <li class="lnk"> <a class="add-to-cart"
-                                                                href="detail.html" title="Compare"> <i
+                                                                href="{{ route('product-details') }}" title="Compare"> <i
                                                                     class="fa fa-signal" aria-hidden="true"></i>
                                                             </a> </li>
                                                     </ul>
@@ -2937,7 +2937,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p15.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p15_hover.jpg" alt=""
                                                             class="hover-image">
@@ -2951,7 +2951,7 @@
                                             <!-- /.product-image -->
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -2973,10 +2973,10 @@
                                                                 to cart</button>
                                                         </li>
                                                         <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                href="detail.html" title="Wishlist"> <i
+                                                                href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                     class="icon fa fa-heart"></i> </a> </li>
                                                         <li class="lnk"> <a class="add-to-cart"
-                                                                href="detail.html" title="Compare"> <i
+                                                                href="{{ route('product-details') }}" title="Compare"> <i
                                                                     class="fa fa-signal" aria-hidden="true"></i>
                                                             </a> </li>
                                                     </ul>
@@ -2997,7 +2997,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p10.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p10_hover.jpg" alt=""
                                                             class="hover-image">
@@ -3011,7 +3011,7 @@
                                             <!-- /.product-image -->
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -3033,10 +3033,10 @@
                                                                 to cart</button>
                                                         </li>
                                                         <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                href="detail.html" title="Wishlist"> <i
+                                                                href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                     class="icon fa fa-heart"></i> </a> </li>
                                                         <li class="lnk"> <a class="add-to-cart"
-                                                                href="detail.html" title="Compare"> <i
+                                                                href="{{ route('product-details') }}" title="Compare"> <i
                                                                     class="fa fa-signal" aria-hidden="true"></i>
                                                             </a> </li>
                                                     </ul>
@@ -3057,7 +3057,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p11.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p11_hover.jpg" alt=""
                                                             class="hover-image">
@@ -3071,7 +3071,7 @@
                                             <!-- /.product-image -->
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -3093,10 +3093,10 @@
                                                                 to cart</button>
                                                         </li>
                                                         <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                href="detail.html" title="Wishlist"> <i
+                                                                href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                     class="icon fa fa-heart"></i> </a> </li>
                                                         <li class="lnk"> <a class="add-to-cart"
-                                                                href="detail.html" title="Compare"> <i
+                                                                href="{{ route('product-details') }}" title="Compare"> <i
                                                                     class="fa fa-signal" aria-hidden="true"></i>
                                                             </a> </li>
                                                     </ul>
@@ -3117,7 +3117,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p8.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p8_hover.jpg" alt=""
                                                             class="hover-image">
@@ -3131,7 +3131,7 @@
                                             <!-- /.product-image -->
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -3153,10 +3153,10 @@
                                                                 to cart</button>
                                                         </li>
                                                         <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                href="detail.html" title="Wishlist"> <i
+                                                                href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                     class="icon fa fa-heart"></i> </a> </li>
                                                         <li class="lnk"> <a class="add-to-cart"
-                                                                href="detail.html" title="Compare"> <i
+                                                                href="{{ route('product-details') }}" title="Compare"> <i
                                                                     class="fa fa-signal" aria-hidden="true"></i>
                                                             </a> </li>
                                                     </ul>
@@ -3177,7 +3177,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html">
+                                                    <a href="{{ route('product-details') }}">
                                                         <img src="asset/frontend/assets/images/products/p7.jpg" alt="">
                                                         <img src="asset/frontend/assets/images/products/p7_hover.jpg" alt=""
                                                             class="hover-image">
@@ -3191,7 +3191,7 @@
                                             <!-- /.product-image -->
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -3213,10 +3213,10 @@
                                                                 to cart</button>
                                                         </li>
                                                         <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                href="detail.html" title="Wishlist"> <i
+                                                                href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                     class="icon fa fa-heart"></i> </a> </li>
                                                         <li class="lnk"> <a class="add-to-cart"
-                                                                href="detail.html" title="Compare"> <i
+                                                                href="{{ route('product-details') }}" title="Compare"> <i
                                                                     class="fa fa-signal" aria-hidden="true"></i>
                                                             </a> </li>
                                                     </ul>
@@ -3421,7 +3421,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="detail.html">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/products/p10.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/products/p10_hover.jpg" alt=""
                                                     class="hover-image">
@@ -3435,7 +3435,7 @@
                                     <!-- /.product-image -->
 
                                     <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a>
                                         </h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="description"></div>
@@ -3456,10 +3456,10 @@
                                                         cart</button>
                                                 </li>
                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                        href="detail.html" title="Wishlist"> <i
+                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                             class="icon fa fa-heart"></i> </a> </li>
                                                 <li class="lnk"> <a class="add-to-cart"
-                                                        href="detail.html" title="Compare"> <i class="fa fa-signal"
+                                                        href="{{ route('product-details') }}" title="Compare"> <i class="fa fa-signal"
                                                             aria-hidden="true"></i> </a>
                                                 </li>
                                             </ul>
@@ -3480,7 +3480,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="detail.html">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/products/p2.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/products/p2_hover.jpg" alt=""
                                                     class="hover-image">
@@ -3494,7 +3494,7 @@
                                     <!-- /.product-image -->
 
                                     <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a>
                                         </h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="description"></div>
@@ -3515,10 +3515,10 @@
                                                         cart</button>
                                                 </li>
                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                        href="detail.html" title="Wishlist"> <i
+                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                             class="icon fa fa-heart"></i> </a> </li>
                                                 <li class="lnk"> <a class="add-to-cart"
-                                                        href="detail.html" title="Compare"> <i class="fa fa-signal"
+                                                        href="{{ route('product-details') }}" title="Compare"> <i class="fa fa-signal"
                                                             aria-hidden="true"></i> </a>
                                                 </li>
                                             </ul>
@@ -3539,7 +3539,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="detail.html">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/products/p3.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/products/p3_hover.jpg" alt=""
                                                     class="hover-image">
@@ -3553,7 +3553,7 @@
                                     <!-- /.product-image -->
 
                                     <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a>
                                         </h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="description"></div>
@@ -3574,10 +3574,10 @@
                                                         cart</button>
                                                 </li>
                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                        href="detail.html" title="Wishlist"> <i
+                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                             class="icon fa fa-heart"></i> </a> </li>
                                                 <li class="lnk"> <a class="add-to-cart"
-                                                        href="detail.html" title="Compare"> <i class="fa fa-signal"
+                                                        href="{{ route('product-details') }}" title="Compare"> <i class="fa fa-signal"
                                                             aria-hidden="true"></i> </a>
                                                 </li>
                                             </ul>
@@ -3598,7 +3598,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="detail.html">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/products/p1.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/products/p1_hover.jpg" alt=""
                                                     class="hover-image">
@@ -3612,7 +3612,7 @@
                                     <!-- /.product-image -->
 
                                     <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a>
                                         </h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="description"></div>
@@ -3633,10 +3633,10 @@
                                                         cart</button>
                                                 </li>
                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                        href="detail.html" title="Wishlist"> <i
+                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                             class="icon fa fa-heart"></i> </a> </li>
                                                 <li class="lnk"> <a class="add-to-cart"
-                                                        href="detail.html" title="Compare"> <i class="fa fa-signal"
+                                                        href="{{ route('product-details') }}" title="Compare"> <i class="fa fa-signal"
                                                             aria-hidden="true"></i> </a>
                                                 </li>
                                             </ul>
@@ -3657,7 +3657,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="detail.html">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/products/p7.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/products/p7_hover.jpg" alt=""
                                                     class="hover-image">
@@ -3671,7 +3671,7 @@
                                     <!-- /.product-image -->
 
                                     <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a>
                                         </h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="description"></div>
@@ -3692,10 +3692,10 @@
                                                         cart</button>
                                                 </li>
                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                        href="detail.html" title="Wishlist"> <i
+                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                             class="icon fa fa-heart"></i> </a> </li>
                                                 <li class="lnk"> <a class="add-to-cart"
-                                                        href="detail.html" title="Compare"> <i class="fa fa-signal"
+                                                        href="{{ route('product-details') }}" title="Compare"> <i class="fa fa-signal"
                                                             aria-hidden="true"></i> </a>
                                                 </li>
                                             </ul>
@@ -3716,7 +3716,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="detail.html">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/products/p9.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/products/p9_hover.jpg" alt=""
                                                     class="hover-image">
@@ -3730,7 +3730,7 @@
                                     <!-- /.product-image -->
 
                                     <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a>
                                         </h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="description"></div>
@@ -3751,10 +3751,10 @@
                                                         cart</button>
                                                 </li>
                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                        href="detail.html" title="Wishlist"> <i
+                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                             class="icon fa fa-heart"></i> </a> </li>
                                                 <li class="lnk"> <a class="add-to-cart"
-                                                        href="detail.html" title="Compare"> <i class="fa fa-signal"
+                                                        href="{{ route('product-details') }}" title="Compare"> <i class="fa fa-signal"
                                                             aria-hidden="true"></i> </a>
                                                 </li>
                                             </ul>

@@ -576,15 +576,15 @@
                             <h3 class="section-title">Product tags</h3>
                             <div class="sidebar-widget-body outer-top-xs">
                                 <div class="tag-list"> <a class="item" title="Phone"
-                                        href="category.html">Phone</a> <a class="item active" title="Vest"
-                                        href="category.html">Vest</a> <a class="item" title="Smartphone"
-                                        href="category.html">Smartphone</a> <a class="item" title="Furniture"
-                                        href="category.html">Furniture</a> <a class="item" title="T-shirt"
-                                        href="category.html">T-shirt</a> <a class="item" title="Sweatpants"
-                                        href="category.html">Sweatpants</a> <a class="item" title="Sneaker"
-                                        href="category.html">Sneaker</a> <a class="item" title="Toys"
-                                        href="category.html">Toys</a> <a class="item" title="Rose"
-                                        href="category.html">Rose</a> </div>
+                                        href="{{ route('category') }}">Phone</a> <a class="item active" title="Vest"
+                                        href="{{ route('category') }}">Vest</a> <a class="item" title="Smartphone"
+                                        href="{{ route('category') }}">Smartphone</a> <a class="item" title="Furniture"
+                                        href="{{ route('category') }}">Furniture</a> <a class="item" title="T-shirt"
+                                        href="{{ route('category') }}">T-shirt</a> <a class="item" title="Sweatpants"
+                                        href="{{ route('category') }}">Sweatpants</a> <a class="item" title="Sneaker"
+                                        href="{{ route('category') }}">Sneaker</a> <a class="item" title="Toys"
+                                        href="{{ route('category') }}">Toys</a> <a class="item" title="Rose"
+                                        href="{{ route('category') }}">Rose</a> </div>
                                 <!-- /.tag-list -->
                             </div>
                             <!-- /.sidebar-widget-body -->
@@ -769,7 +769,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p1.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p1_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -782,7 +782,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -804,10 +804,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -829,7 +829,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p2.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p2_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -842,7 +842,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -864,10 +864,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -889,7 +889,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p3.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p3_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -902,7 +902,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -924,10 +924,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -949,7 +949,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p4.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p4_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -962,7 +962,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -984,10 +984,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1009,7 +1009,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p5.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p5_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1021,7 +1021,7 @@
                                                     </div>
                                                     <!-- /.product-image -->
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1043,10 +1043,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1069,7 +1069,7 @@
                                                     <div class="product-image">
                                                         <div class="image">
 
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p6.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p6_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1082,7 +1082,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1104,10 +1104,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1130,7 +1130,7 @@
                                                     <div class="product-image">
                                                         <div class="image">
 
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p7.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p7_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1143,7 +1143,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1165,10 +1165,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1191,7 +1191,7 @@
                                                     <div class="product-image">
                                                         <div class="image">
 
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p8.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p8_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1204,7 +1204,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1226,10 +1226,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1252,7 +1252,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p9.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p9_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1265,7 +1265,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1287,10 +1287,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1313,7 +1313,7 @@
                                                     <div class="product-image">
                                                         <div class="image">
 
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p10.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p10_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1326,7 +1326,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1348,10 +1348,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1373,7 +1373,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p11.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p11_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1386,7 +1386,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1408,10 +1408,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1433,7 +1433,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p15.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p15_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1446,7 +1446,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1468,10 +1468,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1492,7 +1492,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p14.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p14_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1505,7 +1505,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1527,10 +1527,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1551,7 +1551,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p13.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p13_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1564,7 +1564,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1586,10 +1586,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1610,7 +1610,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p5.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p5_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1623,7 +1623,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1645,10 +1645,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1669,7 +1669,7 @@
                                                 <div class="product">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="detail.html">
+                                                            <a href="{{ route('product-details') }}">
                                                                 <img src="asset/frontend/assets/images/products/p12.jpg" alt="">
                                                                 <img src="asset/frontend/assets/images/products/p12_hover.jpg" alt=""
                                                                     class="hover-image">
@@ -1682,7 +1682,7 @@
                                                     <!-- /.product-image -->
 
                                                     <div class="product-info text-left">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>
@@ -1704,10 +1704,10 @@
                                                                         type="button">Add to cart</button>
                                                                 </li>
                                                                 <li class="lnk wishlist"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Wishlist"> <i
+                                                                        href="{{ route('product-details') }}" title="Wishlist"> <i
                                                                             class="icon fa fa-heart"></i> </a> </li>
                                                                 <li class="lnk"> <a class="add-to-cart"
-                                                                        href="detail.html" title="Compare"> <i
+                                                                        href="{{ route('product-details') }}" title="Compare"> <i
                                                                             class="fa fa-signal"></i> </a> </li>
                                                             </ul>
                                                         </div>
@@ -1746,7 +1746,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1774,12 +1774,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -1816,7 +1816,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1844,12 +1844,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -1886,7 +1886,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1914,12 +1914,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -1956,7 +1956,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -1984,12 +1984,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2026,7 +2026,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2054,12 +2054,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2096,7 +2096,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2124,12 +2124,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2166,7 +2166,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2194,12 +2194,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2236,7 +2236,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2264,12 +2264,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2306,7 +2306,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2334,12 +2334,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2376,7 +2376,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2404,12 +2404,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2446,7 +2446,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2474,12 +2474,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>
@@ -2516,7 +2516,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-sm-9 col-lg-9">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="detail.html">Floral Print
+                                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                                 Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price"> <span class="price">
@@ -2544,12 +2544,12 @@
                                                                             type="button">Add to cart</button>
                                                                     </li>
                                                                     <li class="lnk wishlist"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Wishlist"> <i
                                                                                 class="icon fa fa-heart"></i> </a>
                                                                     </li>
                                                                     <li class="lnk"> <a
-                                                                            class="add-to-cart" href="detail.html"
+                                                                            class="add-to-cart" href="{{ route('product-details') }}"
                                                                             title="Compare"> <i
                                                                                 class="fa fa-signal"></i> </a> </li>
                                                                 </ul>

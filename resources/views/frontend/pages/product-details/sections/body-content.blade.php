@@ -17,7 +17,7 @@
                                 <div class="products">
                                     <div class="hot-deal-wrapper">
                                         <div class="image">
-                                            <a href="#">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/hot-deals/p13.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/hot-deals/p13_hover.jpg" alt=""
                                                     class="hover-image">
@@ -51,7 +51,7 @@
                                     <!-- /.hot-deal-wrapper -->
 
                                     <div class="product-info text-left m-t-20">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a></h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="product-price"> <span class="price"> $600.00 </span> <span
                                                 class="price-before-discount">$800.00</span> </div>
@@ -78,7 +78,7 @@
                                 <div class="products">
                                     <div class="hot-deal-wrapper">
                                         <div class="image">
-                                            <a href="#">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/hot-deals/p14.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/hot-deals/p14_hover.jpg" alt=""
                                                     class="hover-image">
@@ -112,7 +112,7 @@
                                     <!-- /.hot-deal-wrapper -->
 
                                     <div class="product-info text-left m-t-20">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a></h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="product-price"> <span class="price"> $600.00 </span> <span
                                                 class="price-before-discount">$800.00</span> </div>
@@ -139,7 +139,7 @@
                                 <div class="products">
                                     <div class="hot-deal-wrapper">
                                         <div class="image">
-                                            <a href="#">
+                                            <a href="{{ route('product-details') }}">
                                                 <img src="asset/frontend/assets/images/hot-deals/p15.jpg" alt="">
                                                 <img src="asset/frontend/assets/images/hot-deals/p15_hover.jpg" alt=""
                                                     class="hover-image">
@@ -173,7 +173,7 @@
                                     <!-- /.hot-deal-wrapper -->
 
                                     <div class="product-info text-left m-t-20">
-                                        <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                                        <h3 class="name"><a href="{{ route('product-details') }}">Floral Print Buttoned</a></h3>
                                         <div class="rating rateit-small"></div>
                                         <div class="product-price"> <span class="price"> $600.00 </span>
                                             <span class="price-before-discount">$800.00</span>
@@ -525,7 +525,7 @@
                                         </div>
 
                                         <div class="add-btn">
-                                            <a href="#" class="btn btn-primary"><i
+                                            <a href="{{ route('shopping-cart') }}" class="btn btn-primary"><i
                                                     class="fa fa-shopping-cart inner-right-vs"></i> ADD TO CART</a>
                                         </div>
 
@@ -756,7 +756,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="asset/frontend/assets/images/products/p1.jpg"
+                                                    <a href="{{ route('product-details') }}"><img src="asset/frontend/assets/images/products/p1.jpg"
                                                             alt=""></a>
                                                 </div><!-- /.image -->
 
@@ -765,7 +765,7 @@
 
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -792,14 +792,14 @@
                                                         </li>
 
                                                         <li class="lnk wishlist">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Wishlist">
                                                                 <i class="icon fa fa-heart"></i>
                                                             </a>
                                                         </li>
 
                                                         <li class="lnk">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Compare">
                                                                 <i class="fa fa-signal"></i>
                                                             </a>
@@ -818,7 +818,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="asset/frontend/assets/images/products/p2.jpg"
+                                                    <a href="{{ route('product-details') }}"><img src="asset/frontend/assets/images/products/p2.jpg"
                                                             alt=""></a>
                                                 </div><!-- /.image -->
 
@@ -827,7 +827,7 @@
 
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -854,14 +854,14 @@
                                                         </li>
 
                                                         <li class="lnk wishlist">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Wishlist">
                                                                 <i class="icon fa fa-heart"></i>
                                                             </a>
                                                         </li>
 
                                                         <li class="lnk">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Compare">
                                                                 <i class="fa fa-signal"></i>
                                                             </a>
@@ -880,7 +880,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="asset/frontend/assets/images/products/p3.jpg"
+                                                    <a href="{{ route('product-details') }}"><img src="asset/frontend/assets/images/products/p3.jpg"
                                                             alt=""></a>
                                                 </div><!-- /.image -->
 
@@ -889,7 +889,7 @@
 
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -916,14 +916,14 @@
                                                         </li>
 
                                                         <li class="lnk wishlist">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Wishlist">
                                                                 <i class="icon fa fa-heart"></i>
                                                             </a>
                                                         </li>
 
                                                         <li class="lnk">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Compare">
                                                                 <i class="fa fa-signal"></i>
                                                             </a>
@@ -942,7 +942,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="asset/frontend/assets/images/products/p4.jpg"
+                                                    <a href="{{ route('product-details') }}"><img src="asset/frontend/assets/images/products/p4.jpg"
                                                             alt=""></a>
                                                 </div><!-- /.image -->
 
@@ -951,7 +951,7 @@
 
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -978,14 +978,14 @@
                                                         </li>
 
                                                         <li class="lnk wishlist">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Wishlist">
                                                                 <i class="icon fa fa-heart"></i>
                                                             </a>
                                                         </li>
 
                                                         <li class="lnk">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Compare">
                                                                 <i class="fa fa-signal"></i>
                                                             </a>
@@ -1004,7 +1004,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="asset/frontend/assets/images/blank.gif"
+                                                    <a href="{{ route('product-details') }}"><img src="asset/frontend/assets/images/blank.gif"
                                                             data-echo="asset/frontend/assets/images/products/p5.jpg" alt=""></a>
                                                 </div><!-- /.image -->
 
@@ -1013,7 +1013,7 @@
 
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -1040,14 +1040,14 @@
                                                         </li>
 
                                                         <li class="lnk wishlist">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Wishlist">
                                                                 <i class="icon fa fa-heart"></i>
                                                             </a>
                                                         </li>
 
                                                         <li class="lnk">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Compare">
                                                                 <i class="fa fa-signal"></i>
                                                             </a>
@@ -1066,7 +1066,7 @@
                                         <div class="product">
                                             <div class="product-image">
                                                 <div class="image">
-                                                    <a href="detail.html"><img src="asset/frontend/assets/images/blank.gif"
+                                                    <a href="{{ route('product-details') }}"><img src="asset/frontend/assets/images/blank.gif"
                                                             data-echo="asset/frontend/assets/images/products/p6.jpg" alt=""></a>
                                                 </div><!-- /.image -->
 
@@ -1075,7 +1075,7 @@
 
 
                                             <div class="product-info text-left">
-                                                <h3 class="name"><a href="detail.html">Floral Print
+                                                <h3 class="name"><a href="{{ route('product-details') }}">Floral Print
                                                         Buttoned</a></h3>
                                                 <div class="rating rateit-small"></div>
                                                 <div class="description"></div>
@@ -1102,14 +1102,14 @@
                                                         </li>
 
                                                         <li class="lnk wishlist">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Wishlist">
                                                                 <i class="icon fa fa-heart"></i>
                                                             </a>
                                                         </li>
 
                                                         <li class="lnk">
-                                                            <a class="add-to-cart" href="detail.html"
+                                                            <a class="add-to-cart" href="{{ route('product-details') }}"
                                                                 title="Compare">
                                                                 <i class="fa fa-signal"></i>
                                                             </a>
